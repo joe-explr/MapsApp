@@ -1,0 +1,16 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin: 4%;
+}
+
+.grid-container > div {
+  margin: 2%;
+  color: antiquewhite;
+  font-family: "Courier New", Courier, monospace;
+}
